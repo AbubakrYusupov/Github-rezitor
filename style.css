@@ -1,0 +1,42 @@
+body{/*stil berish uchun tegni belgilap olamiz*/
+	background-color: white;/*fon*/
+	color: white;/*body ichidagi elementlarga rang bervomiz*/
+	font-size: 12px;/*textga razmer bervomiz*/
+	margin: 0;/*tashqi tomondan joy tashash*/
+	padding: 0;/*ichki tomondan joy tashlash*/
+}
+
+div{
+	width: 100%;/*elementni eni hajmi*/
+	height: 100%;/*elementni boyi hajmi hajmini pixelda va foyizda berish mumkin %*/
+	/*border: 1px solid yellow;/*element ramkasi bu oz ichida ramka qalinligi va rangini saqlaydi*/
+	border-radius: 20px;/*ramka qirassi*/
+	left: 20px;
+}
+h1{
+	color: blue;
+	font-size: 52px;
+	font-family: Comic Sans MS;/*bu shrift*/
+	background: white;
+	border: 10px solid silver;
+	border-radius: 50px;
+	margin: 50px;
+	margin-top: 200px;
+	padding: 30px;
+}
+
+.btn/*class ga stil bervommiza*/{
+	background: #000;
+	color: #58AAE1;
+	padding: 10px 30px; 
+}
+
+#btnid{
+	background-color: #eee;
+	color: blue;
+	padding: 20px 30px;
+}
+
+#btnid:hover{
+	background-color: red;
+}
