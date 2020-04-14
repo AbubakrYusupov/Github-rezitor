@@ -1,0 +1,32 @@
+container{
+	background: #999;
+	display:;/* display kodi conni eniga boyiga uzun kalta qiliwga kere boladi */
+	width:;/*width kodi kengligini olchidi*/
+	height:;/*height kodi bironta sozni balant pastligini pxlda olcidi*/	
+	margin:;/*margin kodi tashqi tomondan suradi */
+	padding: 0px;/*padding kodi ichki tomondan kotta kichiklashtiradi*/
+	overflow:;/*overflow kodi container ichiga sozla sigmasa togirlashga kere boladi*/
+}
+.container-inner/*con-in kodi con kodini kichkina varianti unga faqat bir dona soz ozini kereli sozini yozolis*/{
+	position: fixed;/* position kodida  realitive degan atrbutga oxwagan narsada qatta turgan bosa uwata qolad fixedda qopketmidi*/
+	z-index:999;/* z-indexda  container-innerri tepaga qoyip qoygan bose kegin pasga tushle tepada yo bopketmidi korinip turadi*/
+}
+a{
+	background: #888;
+	display: block;
+}
+
+body{
+	font-family: verdana;/*font-family biron bir sozni korinishini ozgartiradi */
+	font-size: 13px;/*font-size biron bir narsaga hajm beradi */
+	color: #333;/*color u bu sozga rang beradi */
+	background: white;/*background tashqariga saytga rang beradi*/
+
+}
+h2::before/*before kodi contentni chap tomonda yozishga kerak; after kodi ong tomondan*/{
+	content: 'Кстати:'/*content kodi biron bir narsani nimaligini bilintirish uchun kerak misol manbiga ismingizni yozing:*/
+}
+ */* *bu narsa orqali hamma narsani bittada ishlatsa boladi */
+hover/* hover kodi hamma textlani zagolovoklaga oborsa ramkada korsitadi*/{
+	border:1px solid black;
+}
