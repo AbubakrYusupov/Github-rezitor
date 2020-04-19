@@ -1,0 +1,15 @@
+.bar {
+	animation-name:;/*animatsiya kodiga ot qoyish*/
+	animation-duration:;/*animation-duration kodi sekudt qoyadi vaqtni belgilidi */
+	animation-timing-function: ; /*bu kodda animatsiya qanaqa aylanishini belgilasa boladi tezmi sekinmi*/
+	animation-iteration-count: ;/*bu kod shu animatsiya nechimata aylanishini belgilidi 1 martami 5 martami infinite yozsa aylanvuradi 
+	tohtamasdan*/
+	animation-direction: ;/*bu kodda animatsiya onga aylanishi uchun normal, chapga aylanishi uchun reverse, ham onga ham chapga 
+	aylanishi uchun alternate dip yozish kere*/
+
+}
+	animation:;/*animatsion kodida square aylanadi */
+
+	animation-play-state:;/*square:hoverda square aylanvotkan joyida mishkani uborsa tohtidi*/
+
+
